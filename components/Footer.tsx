@@ -1,4 +1,5 @@
 import styles from "@/styles/Home.module.css";
+import Image from "next/image";
 
 export function Home() {
   return (
@@ -9,9 +10,7 @@ export function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
-              aria-hidden
-              src="/file.svg"
+            <Image　aria-hidden　src="/file.svg"
               alt="File icon"
               width={16}
               height={16}
@@ -47,7 +46,6 @@ export function Home() {
             Go to nextjs.org →
           </a>
         </footer>
-      </div>
     </>
   );
 }
